@@ -4,4 +4,5 @@ net.dean.jraw.http.oauth
 net.dean.jraw.managers
 net.dean.jraw.models
 net.dean.jraw.models.attr
+net.dean.jraw.models.meta
 net.dean.jraw.paginators
