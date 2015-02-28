@@ -3,7 +3,7 @@ title: The Java Reddit API Wrapper
 email: deanmatthew16@gmail.com
 description: >
   The Java Reddit API Wrapper
-url: "https://thatjavanerd.io/JRAW" # the base hostname & protocol for your site
+url: "https://thatjavanerd.github.io/JRAW" # the base hostname & protocol for your site
 github_username: thatJavaNerd
 
 # Build settings
