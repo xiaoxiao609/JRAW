@@ -1,0 +1,7 @@
+---
+version: https://github.com/thatJavaNerd/JRAW/releases/tag/v%s
+browse: https://thatjavanerd.github.io/JRAW/docs/%s
+browse_latest: https://thatjavanerd.github.io/JRAW/docs/latest
+browse_git: https://thatjavanerd.github.io/JRAW/docs/git/:sha/
+browse_git_latest: https://thatjavanerd.github.io/JRAW/docs/git/latest
+download: https://github.com/thatJavaNerd/JRAW/releases/download/v%s/JRAW-%s-javadoc.jar

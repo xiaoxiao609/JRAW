@@ -1,0 +1,15 @@
+# Site settings
+title: The Java Reddit API Wrapper
+email: deanmatthew16@gmail.com
+description: >
+  The Java Reddit API Wrapper
+url: "https://thatjavanerd.io/JRAW" # the base hostname & protocol for your site
+github_username: thatJavaNerd
+
+# Build settings
+markdown: redcarpet
+# Make redcarpet behave like GitHub Flavored Markdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+encoding: "utf-8"
