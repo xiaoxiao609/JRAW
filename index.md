@@ -7,7 +7,7 @@ layout: default
 
 #About
 
-JRAW is designed to be an incredibly customizable API wrapper for Reddit written in Java. It supports most every common action one can do on the site, as well as being the only API wrapper that supports OAuth2. As an example, this code will retrieve the first page from the front page:
+JRAW is designed to be an incredibly customizable API wrapper for Reddit written in Java. It supports most every common action one can do on the site, as well as currently being the only Java-based API wrapper that supports OAuth2. As an example, this code will retrieve the first page from the front page:
 
 ```java
 RedditClient reddit = new RedditClient(...)
