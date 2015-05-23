@@ -1,4 +1,5 @@
 net.dean.jraw
+net.dean.jraw.fluent
 net.dean.jraw.http
 net.dean.jraw.http.oauth
 net.dean.jraw.managers
