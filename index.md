@@ -7,16 +7,14 @@ layout: default
 
 #About
 
-JRAW is designed to be an incredibly customizable API wrapper for Reddit written in Java. It supports most every common action one can do on the site, as well as currently being the only Java-based API wrapper that supports OAuth2. As an example, this code will retrieve the first page from the front page:
+JRAW is an easy-to-understand API wrapper for reddit written in Java. It supports OAuth2 authentication as well as every common user action. Using the library is simple:
 
 ```java
 RedditClient reddit = new RedditClient(...)
-for (Submission link : new SubredditPaginator(reddit).next()) {
-	System.out.printf("%s↑ /r/%s - %s\n", link.getScore(), link.getSubreddit(), link.getTitle())
-}
+reddit.authenticate(...)
+for (Submission link : new SubredditPaginator(reddit).next())
+    System.out.printf("%s↑ /r/%s - %s\n", link.getScore(), link.getSubreddit(), link.getTitle())
 ```
-
-This results in:
 
 ```
 4069↑ /r/science - Randomized double-blind placebo-controlled trial shows non-celiac gluten sensitivity is indeed real
@@ -26,6 +24,16 @@ This results in:
 ```
 
 #Getting Started
+
+Add JRAW to your dependencies:
+
+```groovy
+repositories { jcenter() }
+
+dependencies {
+    compile "net.dean.jraw:JRAW:$jrawVersion"
+}
+```
 
 The [Quickstart wiki page](https://github.com/thatJavaNerd/JRAW/wiki/Quickstart) can help you get started.
 
