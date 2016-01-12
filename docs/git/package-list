@@ -8,3 +8,4 @@ net.dean.jraw.models
 net.dean.jraw.models.attr
 net.dean.jraw.models.meta
 net.dean.jraw.paginators
+net.dean.jraw.util
