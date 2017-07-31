@@ -7,9 +7,5 @@ url: "https://thatjavanerd.github.io/JRAW" # the base hostname & protocol for yo
 github_username: thatJavaNerd
 
 # Build settings
-markdown: redcarpet
-# Make redcarpet behave like GitHub Flavored Markdown
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
+markdown: kramdown
 encoding: "utf-8"
